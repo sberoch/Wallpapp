@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "820239842739",
+    "firebase_url": "https://wallpapp-2846b.firebaseio.com",
+    "project_id": "wallpapp-2846b",
+    "storage_bucket": "wallpapp-2846b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820239842739:android:a57f215fee9c4502891fc6",
+        "android_client_info": {
+          "package_name": "com.eriochrome.wallpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820239842739-c08fj2gk8312d7eq92no0enprf8lrdjn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eriochrome.wallpapp",
+            "certificate_hash": "cefffe369f6b37d3aa9bc80b8d84712409b24b19"
+          }
+        },
+        {
+          "client_id": "820239842739-bibhqcn0efhalvd4c8c8lrajsrq3to1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr8L2ezpudM8U5E8AtnQHeA7d2qFA5czg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820239842739-bibhqcn0efhalvd4c8c8lrajsrq3to1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

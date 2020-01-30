@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group
+		android:id="@+id/main"
+		android:checkableBehavior="single">
+		<item
+			android:id="@+id/trending"
+			android:icon="@drawable/ic_hot_black_24dp"
+			android:title="@string/trending" />
+
+		<item
+			android:id="@+id/popular"
+			android:icon="@drawable/ic_stars_black_24dp"
+			android:title="@string/popular" />
+
+		<item
+			android:id="@+id/latest"
+			android:icon="@drawable/ic_new_black_24dp"
+			android:title="@string/latest" />
+
+		<item
+			android:id="@+id/categories"
+			android:icon="@drawable/ic_categories_black_24dp"
+			android:title="@string/categories" />
+
+	</group>
+	<group
+		android:id="@+id/extras"
+		android:checkableBehavior="single">
+		<item
+			android:id="@+id/share"
+			android:icon="@drawable/ic_share_black_24dp"
+			android:title="@string/share" />
+		<item
+			android:id="@+id/rate_us"
+			android:icon="@drawable/ic_star_black_24dp"
+			android:title="@string/rate_us" />
+		<item
+			android:id="@+id/contact"
+			android:icon="@drawable/ic_email_black_24dp"
+			android:title="@string/contact" />
+
+
+	</group>
+
+
+</menu>

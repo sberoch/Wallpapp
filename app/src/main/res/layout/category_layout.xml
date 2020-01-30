@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="300dp"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:padding="7dp">
+
+	<com.rishabhharit.roundedimageview.RoundedImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/cat_text_view"
+		android:scaleType="centerCrop"
+		app:roundedCorners="all"
+		app:cornerRadius="10dp"
+		android:id="@+id/cat_image_view"/>
+
+	<TextView
+		android:id="@+id/cat_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="3dp"
+		android:layout_marginBottom="5dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:fontFamily="@font/lato_bold"
+		android:text="TextView"
+		android:textColor="@android:color/background_light"
+		android:textSize="18sp" />
+
+</RelativeLayout>

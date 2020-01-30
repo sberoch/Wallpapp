@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Wallpapp</string>
+	<string name="artistic">Artistico</string>
+	<string name="blackandwhite">Blanco y Negro</string>
+	<string name="categories">Categorias</string>
+	<string name="contact">Contacto</string>
+	<string name="download">Descargar</string>
+	<string name="downloading">Descargando...</string>
+	<string name="failed_try_again">Ha ocurrido un error. Intente nuevamente.</string>
+	<string name="latest">Recientes</string>
+	<string name="natural">Natural</string>
+	<string name="no_email_services">No se encontraron servicios de email.</string>
+	<string name="popular">Popular</string>
+	<string name="rate_us">Calificanos</string>
+	<string name="send_email">Enviar email</string>
+	<string name="set_as_wall">Establecer como fondo</string>
+	<string name="setting_as_wall">Estableciendo como fondo...</string>
+	<string name="share">Compartir</string>
+	<string name="share_app_via">Compartir via:</string>
+	<string name="success">Exito!</string>
+	<string name="textures">Texturas</string>
+	<string name="trending">Tendencias</string>
+</resources>

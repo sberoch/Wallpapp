@@ -1,0 +1,24 @@
+<resources>
+	<string name="app_name">Wallpapp</string>
+	<string name="trending">Trending</string>
+	<string name="popular">Popular</string>
+	<string name="latest">Latest</string>
+	<string name="categories">Categories</string>
+	<string name="contact">Contact</string>
+	<string name="rate_us">Rate us</string>
+	<string name="share">Share</string>
+	<string name="app_email" translatable="false">wallpappinfo@gmail.com</string>
+	<string name="no_email_services">No email services found</string>
+	<string name="success">Success!</string>
+	<string name="failed_try_again">Failed. Please try again.</string>
+	<string name="downloading">Downloading…</string>
+	<string name="set_as_wall">Set as wallpaper</string>
+	<string name="download">Download</string>
+	<string name="setting_as_wall">Setting as wallpaper…</string>
+	<string name="artistic">Artistic</string>
+	<string name="blackandwhite">Black and White</string>
+	<string name="natural">Natural</string>
+	<string name="textures">Textures</string>
+	<string name="share_app_via">Share app via:</string>
+	<string name="send_email">Send email</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".views.ImageActivity">
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/image"
+		android:background="@color/dark_gray"
+		android:scaleType="centerCrop"/>
+
+	<com.getbase.floatingactionbutton.FloatingActionsMenu
+		android:id="@+id/fab_menu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		app:fab_labelsPosition="left"
+		fab:fab_addButtonColorNormal="@android:color/background_light"
+		fab:fab_addButtonColorPressed="@android:color/background_light"
+		fab:fab_addButtonPlusIconColor="@android:color/background_dark"
+		fab:fab_addButtonSize="mini"
+		fab:fab_labelStyle="@style/fab"
+		tools:ignore="RelativeOverlap">
+
+		<com.getbase.floatingactionbutton.FloatingActionButton
+			android:id="@+id/set_as_wall_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_wallpaper_black_24dp"
+			fab:fab_colorNormal="@android:color/background_light"
+			fab:fab_colorPressed="@android:color/background_light"
+			fab:fab_size="mini"
+			fab:fab_title="@string/set_as_wall" />
+
+		<com.getbase.floatingactionbutton.FloatingActionButton
+			android:id="@+id/download_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			fab:fab_colorNormal="@android:color/background_light"
+			fab:fab_colorPressed="@android:color/background_light"
+			fab:fab_size="mini"
+			android:src="@drawable/ic_file_download_black_24dp"
+			fab:fab_title="@string/download" />
+
+	</com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+	<ImageButton
+		android:id="@+id/back_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="15dp"
+		android:layout_marginTop="15dp"
+		android:layout_marginEnd="15dp"
+		android:layout_marginBottom="12dp"
+		android:background="@drawable/round_button"
+		android:padding="8dp"
+		android:src="@drawable/ic_arrow_back_black_24dp" />
+
+</RelativeLayout>
