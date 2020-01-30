@@ -56,7 +56,7 @@ class ImageActivity : AppCompatActivity(), ImageContract.View {
 
     private fun setupAds() {
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-5220294257716774/6683463626"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
         mInterstitialAd.adListener = object : AdListener() {
             override fun onAdClosed() {
