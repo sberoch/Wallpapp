@@ -25,6 +25,8 @@ private val fragMenuIndexMap = mapOf(0 to R.id.trending,
                             3 to R.id.categories
 )
 
+//TODO: contabilizar descargas
+
 class MainActivity : AppCompatActivity(),
     MainContract.View {
 
